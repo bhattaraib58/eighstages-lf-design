@@ -1,0 +1,107 @@
+body {
+    background-color: red;
+}
+
+.header {
+    background-color: green;
+}
+
+.top-header {
+    background-color: #7dd8e8;
+    padding: 20px;
+}
+
+.logo-search {
+    width: 60%;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.logo {
+    margin-right: 22px;
+    font-family: 'Roboto Slab', serif;
+    float: left;
+}
+
+.logo a {
+    color: #274f56;
+    text-decoration: none;
+    font-size: 62px;
+}
+
+form {
+    float: left;
+    margin-top: 40px;
+    margin-right: 178px;
+}
+
+form input {
+    margin-right: 5px;
+    width: 276px;
+    height: 20px;
+    background-color: transparent;
+    border: 0px;
+    padding: 8px;
+    font-size: 10px;
+    color: #5c5c5c;
+    font-family: "Istok Web ", sans-serif;
+    outline: none;
+    display: inline-block;
+}
+
+form .input {
+    background: url(../images/input.png) no-repeat;
+    float: left;
+}
+
+form button {
+    display: inline-block;
+    outline: none;
+    color: #ffffff;
+    font-family: "Istok Web ", sans-serif;
+    background-color: transparent;
+    border: 0px;
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+form .button {
+    background: url(../images/button.png) no-repeat;
+    float: left;
+}
+
+.profile-info {
+    width: 40%;
+    float: right;
+    margin-top: 6px;
+    padding-left: 370px;
+}
+
+.title {
+    font-size: 25px;
+    font-family: "Muli", sans-serif;
+    margin-bottom: 10px;
+}
+
+.profile-info a {
+    color: #323232;
+    text-decoration: none;
+}
+
+ul.horizontal-line li {
+    display: inline;
+    font-family: "Istok Web ", sans-serif;
+    font-size: 16px;
+}
+
+.bottom-header {
+    background-color: #f5f5f5;
+    padding: 20px;
+}

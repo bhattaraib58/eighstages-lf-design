@@ -1,0 +1,31 @@
+body
+{
+    font-family: 'Roboto Slab', serif;
+}
+.top-header
+{
+    background-color: #7dd8e8;
+    padding: 5px;
+}
+
+.logo
+{
+    margin: 0px 15px 0px 15px;
+}
+
+.logo a
+{
+    color: #274f56;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.profile-info
+{
+}
+
+.profile-info a
+{
+    color: #323232;
+    text-decoration: none;
+}

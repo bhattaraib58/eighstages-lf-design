@@ -1,0 +1,33 @@
+body {
+}
+
+.top-header {
+    background-color: #7dd8e8;
+    padding: 5px;
+}
+
+.logo {
+    margin: 0px 15px 0px 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.logo a {
+    color: #274f56;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.profile-info a {
+    color: #323232;
+    text-decoration: none;
+}
+
+ul.horizontal-line {
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul.horizontal-line li {
+    display: inline;
+    font-family: 'Istok Web', sans-serif;
+}

@@ -1,0 +1,76 @@
+body {
+    background-color: red;
+}
+
+.header {
+    background-color: green;
+}
+
+.top-header {
+    background-color: #7dd8e8;
+    padding: 5px;
+}
+
+.logo-search {
+    width: 60%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.logo {
+    margin: 0px 15px 0px 15px;
+    font-family: 'Roboto Slab', serif;
+    float: left;
+}
+
+.logo a {
+    color: #274f56;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+form {
+    float: left;
+}
+
+form input {
+    margin-right: 5px;
+    width: 276px;
+    height: 20px;
+    background-color: red;
+    border: 0px;
+    padding: 8px;
+    font-size: 10px;
+    color: #5c5c5c;
+    font-family: "Istok Web ", sans-serif;
+    outline: none;
+    display: inline-block;
+}
+
+/* 
+.profile-info {
+    width: 40%;
+    float: right;
+    background-color: blue;
+    /* overflow: auto; 
+}
+
+.profile-info a {
+    color: #323232;
+    text-decoration: none;
+    float: right;
+}
+
+ul.horizontal-line {
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul.horizontal-line li {
+    display: inline;
+    font-family: 'Istok Web', sans-serif;
+} */

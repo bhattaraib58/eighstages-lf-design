@@ -1,0 +1,99 @@
+/* !important if you see side scrolling in chrome 
+resposnive goto desktop version reload and then goto mobile */
+
+
+.search-container {
+    display: none;
+}
+
+.sidemenu {
+    display: block;
+}
+
+.user-short-keys {
+    display: none;
+}
+
+.lower-header-wrapper {
+    display: none;
+}
+
+.short-links {
+    width: 100%;
+}
+
+.copyright-info {
+    float: left;
+}
+
+.shortlink-container {
+    display: none;
+}
+
+.searches-container {
+    display: none;
+}
+
+.searches-entries {
+    width: 100%;
+}
+
+.entries-container {
+    width: 100%;
+}
+
+@media (min-width:768px) {
+    .searches-container {
+        display: block;
+    }
+
+    .search-container {
+        display: block;
+    }
+
+    .short-links {
+        width: 60%;
+    }
+
+    .copyright-info {
+        float: right;
+    }
+
+    .entries-container {
+        width: 74.270276%;
+    }
+}
+
+@media (min-width:968px) {
+    .page-content {
+        max-width: 60em;
+    }
+
+    .sidemenu {
+        display: none;
+    }
+
+    .user-short-keys {
+        display: block;
+    }
+
+    .lower-header-wrapper {
+        display: block;
+    }
+
+    .short-links {
+        width: 45.541666%;
+    }
+
+    .shortlink-container {
+        display: block;
+    }
+
+    .searches-entries {
+        width: 77.083333%;
+    }
+
+    .entries-container {
+        width: 70.270276%;
+    }
+}

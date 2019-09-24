@@ -1,0 +1,227 @@
+body {
+    background-color: red;
+}
+
+.header {
+    background-color: green;
+}
+
+.top-header {
+    background-color: #7dd8e8;
+    padding: 20px;
+}
+
+.logo-search {
+    width: 60%;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.logo {
+    margin-right: 22px;
+    font-family: 'Roboto Slab', serif;
+    float: left;
+}
+
+.logo a {
+    color: #274f56;
+    text-decoration: none;
+    font-size: 62px;
+}
+
+form {
+    float: left;
+    margin-top: 40px;
+    margin-right: 178px;
+}
+
+form input {
+    margin-right: 5px;
+    width: 276px;
+    height: 20px;
+    background-color: transparent;
+    border: 0px;
+    padding: 8px;
+    font-size: 10px;
+    color: #5c5c5c;
+    font-family: "Istok Web ", sans-serif;
+    outline: none;
+    display: inline-block;
+}
+
+form .input {
+    background: url(../images/input.png) no-repeat;
+    float: left;
+}
+
+form button {
+    display: inline-block;
+    outline: none;
+    color: #ffffff;
+    font-family: "Istok Web ", sans-serif;
+    background-color: transparent;
+    border: 0px;
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+form .button {
+    background: url(../images/button.png) no-repeat;
+    float: left;
+}
+
+.profile-info {
+    width: 40%;
+    float: right;
+    margin-top: 6px;
+    padding-left: 370px;
+}
+
+.title {
+    font-size: 25px;
+    font-family: "Muli", sans-serif;
+    margin-bottom: 10px;
+}
+
+.profile-info a {
+    color: #323232;
+    text-decoration: none;
+}
+
+ul.horizontal-line li {
+    display: inline;
+    font-family: "Istok Web ", sans-serif;
+    font-size: 16px;
+}
+
+.bottom-header {
+    background-color: #f5f5f5;
+    padding: 15px;
+}
+
+.menu-items {
+    float: left;
+}
+
+.menu-items li {
+    display: inline-block;
+    font-family: "Istok Web ", sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.menu-items a {
+    color: #323232;
+    text-decoration: none;
+}
+
+.user-info {
+    float: left;
+    margin-left: 550px;
+}
+
+.user-info a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #323232;
+}
+
+.user-info span {
+    font-family: "Istok Web ", sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    padding: 30px 20px 0px 20px;
+    background-color: green;
+}
+
+.searches-entries-container {
+    width: 70%;
+    float: left;
+    background-color: #274f56;
+}
+
+.recent-searches {
+    margin-bottom: 25px;
+}
+
+.searches-container {
+    float: left;
+    background-color: #f5f5f5;
+}
+
+.entries-container {
+    float: left;
+    background-color: darkgreen;
+}
+
+.short-links-container {
+    width: 30%;
+    background-color: #f5f5f5;
+    float: left;
+}
+
+.searches-content li {
+    display: block;
+    font-family: "Istok Web ", sans-serif;
+    font-size: 16px;
+}
+
+.content-title {
+    margin-bottom: 13px;
+    background-color: #2fc1d9;
+    padding: 15px;
+}
+
+.content-title h3 {
+    width: 155px;
+    word-wrap: break-word;
+    display: inline-block;
+    font-family: "Istok Web ", sans-serif;
+    color: #ccf0f6;
+    margin-right: 25px;
+    vertical-align: middle;
+}
+
+.content-title img {
+    vertical-align: middle;
+}
+
+.content {
+    padding: 12px;
+}
+
+.content a {
+    width: 100%;
+    word-wrap: break-word;
+    display: inline-block;
+    text-decoration: none;
+    color: #292929;
+    font-weight: 550;
+    font-size: 14px;
+}
+
+.content div {
+    width: 155px;
+    word-wrap: break-word;
+    display: inline-block;
+    margin-right: 35px;
+    vertical-align: middle;
+    font-weight: 550;
+}
+
+.content .content-selected {
+    color: #309eb0;
+}
+
+.content img {
+    vertical-align: middle;
+}

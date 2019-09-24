@@ -1,0 +1,529 @@
+.page-content {
+    width: 957px;
+    margin: 0px auto;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* .upper-header start */
+.upper-header-wrapper {
+    background-color: #7dd8e8;
+}
+
+.upper-header {
+    background-color: #7dd8e8;
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+.logo-form {
+    float: left;
+}
+
+.logo {
+    float: left;
+    margin-right: 22px;
+}
+
+.search-form {
+    float: right;
+    margin-top: 20px;
+}
+
+.search-form div {
+    display: inline-block;
+}
+
+.search-form input {
+    background-color: transparent;
+    border: 0px;
+    font-size: 9px;
+    font-family: "Istok Web ", sans-serif;
+}
+
+.search-box {
+    width: 276px;
+    background: url("../images/input.png") no-repeat;
+    background-position: center top;
+    height: 22px;
+    margin-right: 8px;
+}
+
+.search-box input {
+    padding: 5px 7px;
+    width: 263px;
+}
+
+.submit-box {
+    background: url("../images/button.png") no-repeat;
+    width: 53px;
+    height: 22px;
+}
+
+.submit-box input {
+    color: white;
+    padding: 6px 9px;
+    width: 53px;
+    height: 20px;
+}
+.submit-box input:hover {
+    box-shadow: 0 1px #666;
+}
+
+.user-short-keys {
+    float: right;
+}
+
+.user-short-keys a {
+    text-decoration: none;
+    color: #323232;
+}
+
+.title {
+    font-size: 15px;
+    font-family: "Muli", sans-serif;
+    text-align: right;
+    font-weight: bold;
+    color: #323232;
+    margin-bottom: 10px;
+}
+
+.user-short-keys li {
+    /* dont know why when inline-block adds extra height
+    -ask dai */
+    /* display: inline-block; */
+    display: inline;
+    float: left;
+    font-family: "Istok Web ", sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 12px;
+}
+
+.user-short-keys li:not(:last-child) {
+    margin-right: 6px;
+}
+
+.user-short-keys li:not(:last-child) {
+    background: url("../images/pixel.png") repeat-y;
+    background-position: right;
+    padding-right: 6px;
+}
+
+.user-short-keys a:hover {
+    color: #1891a7;
+}
+
+/* .upper-header end */
+
+/* .lower-header :start */
+.lower-header-wrapper {
+    background-color: #f5f5f5;
+}
+
+.lower-header {
+    background-color: #f5f5f5;
+}
+
+.menu-items {
+    float: left;
+}
+
+.menu-items li {
+    display: inline-block;
+    margin-right: 21px;
+}
+
+.menu-items li:first-child {
+    margin-left: 11px;
+}
+
+.lower-header a {
+    text-decoration: none;
+    font-family: "Muli";
+    font-weight: bold;
+    color: #323232;
+    line-height: 40px;
+}
+
+.menu-items li a {
+    font-size: 13px;
+}
+
+.lower-header a:hover {
+    color: #969696;
+}
+
+.user-info {
+    float: right;
+}
+
+.user-info li {
+    display: inline-block;
+    margin-right: 21px;
+}
+
+.user-info li a {
+    font-size: 11px;
+}
+
+.topic-box {
+    background: url("../images/topic-invites-lit.png") no-repeat;
+    background-position: left center;
+    padding-left: 18px;
+}
+
+.topic-box:hover {
+    background: url("../images/topic-invites-gray.png") no-repeat;
+}
+
+.friend-request {
+    background: url("../images/user-lit.png") no-repeat;
+    padding-left: 25px;
+}
+
+.friend-request:hover {
+    background: url("../images/user-gray.png") no-repeat;
+}
+
+/* .lower-header end */
+
+/* footer start */
+.footer-wrapper {
+    background-color: #727272;
+}
+
+.footer {
+    background-color: #727272;
+    line-height: 45px;
+}
+
+.short-links {
+    float: left;
+}
+
+.short-links li {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.short-links a {
+    text-decoration: none;
+    font-family: "Istok Web ", sans-serif;
+    font-size: 9px;
+    font-weight: bold;
+    color: #d4d4d4;
+}
+
+.short-links a:hover {
+    color: #5c5c5c;
+}
+
+.short-links li:not(:last-child) {
+    background: url("../images/dot.png") no-repeat;
+    background-position: right center;
+    padding-right: 11px;
+}
+
+.copyright-info {
+    float: right;
+    font-family: "Istok Web ", sans-serif;
+    font-size: 9px;
+    font-weight: bold;
+    color: #d4d4d4;
+}
+
+/* footer end */
+
+
+/* main body start */
+.main-body-wrapper {
+    background-color: #ffffff;
+}
+
+.main-body {
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    width: 960px;
+}
+
+.main-body-contatiner {
+    overflow: hidden;
+}
+
+/* css hack for same height columns */
+.main-body-contatiner .col-same-height {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.searches-entries {
+    float: left;
+    width: 740px;
+}
+
+.searches-container {
+    width: 190px;
+    background-color: #f5f5f5;
+    float: left;
+}
+
+.entries-container {
+    float: right;
+    width: 520px;
+}
+
+.shortlink-container {
+    width: 190px;
+    background-color: #f5f5f5;
+    float: right;
+}
+
+/* side bar content css start*/
+.searches-content li {
+    display: block;
+    padding: 7px 12px 7px 10px;
+}
+
+.searches-content li:hover {
+    background-color: #ffffff;
+}
+
+.searches-content li a:hover {
+    color: #309eb0;
+}
+
+.searches-content .link-left-anchor {
+    text-decoration: none;
+    word-wrap: break-word;
+    font-family: "Istok Web ", sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #292929;
+    display: inline-block;
+    width: 138px;
+    vertical-align: middle;
+}
+
+.content-title {
+    margin-bottom: 7px;
+    background-color: #2fc1d9;
+}
+
+.searches-content .content-title h3 {
+    font-family: "Muli", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+}
+
+.searches-content .content-title:hover {
+    background-color: #2fc1d9;
+}
+
+.link-right-anchor img {
+    height: 19px;
+    width: 19px;
+    vertical-align: middle;
+}
+
+/* side bar content css end */
+
+/* side bar content css images by need */
+/* recent seraches */
+.recent-searches .link-right-anchor img {
+    background: url("../images/download-gray.png") no-repeat;
+    background-position: center;
+}
+
+.recent-searches .link-right-anchor img:hover {
+    background: url("../images/download-lit.png") no-repeat;
+    background-position: center;
+}
+
+/* saved searched */
+.saved-searches .link-right-anchor {
+    background: url("../images/hamburger-gray.png") no-repeat;
+    background-position: center;
+}
+
+.saved-searches .link-right-anchor:hover {
+    background: url("../images/hamburger-lit.png") no-repeat;
+    background-position: center;
+}
+
+/* end sidebar css */
+
+/* start body center entities css */
+
+/* main title of entity */
+.entries-main-title h1 {
+    font-family: "Muli", sans-serif;
+    font-size: 23px;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+/* end main title of entity */
+
+/* start of entities boxes */
+
+/* start of button */
+
+.entries-body-button {
+    height: 69px;
+    width: 518px;
+    background: url("../images/tab-bg.png") no-repeat;
+    background-position: center;
+}
+
+.entries-title-button {
+    height: 37px;
+}
+
+.entries-title-button div {
+    height: 37px;
+    width: 259px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.button-all-entries {
+    float: left;
+}
+
+.button-subscribed {
+    float: right;
+}
+
+.entries-button li {
+    margin-left: 10px;
+    display: inline-block;
+    background: url("../images/button-tab-deactive.png") no-repeat;
+    width: 114px;
+    height: 29px;
+}
+
+.entries-button li button {
+    background-color: transparent;
+    border: 0px;
+    font-family: "Istok Web ", sans-serif;
+    text-align: center;
+    width: 114px;
+    height: 29px;
+}
+
+.entries-button li :hover {
+    background: url("../images/tab-button.png") no-repeat;
+}
+/* end of the button */
+
+.entries-list {
+    background-color: #ffffff;
+}
+
+.entries-list li {
+    display: block;
+}
+
+.entries {
+    margin-top: 14px;
+    padding-bottom: 14px;
+    background: url("../images/pixel-bottom.png") repeat-x;
+    background-position: center bottom;
+}
+
+.image-container {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.entries-content {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.entries-title {
+    font-size: 14px;
+    font-family: "Muli", sans-serif;
+}
+
+.entries-author li {
+    display: inline-block;
+}
+
+.entries-author li,
+.entries-category span {
+    font-family: "Istok Web ", sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    color: #4e4e4e;
+}
+
+.entries a {
+    text-decoration: none;
+    color: #49aaba;
+    font-size: 11px;
+    font-family: "Istok Web ", sans-serif;
+}
+
+.entries a:hover {
+    text-decoration: underline;
+}
+
+
+.entries-author li {
+    line-height: 12px;
+}
+
+.entries-author li:not(:last-child) {
+    background: url("../images/pixel.png") repeat-y;
+    background-position: right;
+    padding-right: 6px;
+}
+
+.entries .entries-notify-info {
+    text-transform: uppercase;
+    font-family: "Istok Web ", sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+    color: #49aaba;
+}
+
+.entries .entries-notify-invite {
+    text-transform: uppercase;
+    font-family: "Istok Web ", sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+    color: #d53f1c;
+}
+
+.entries .subscribed {
+    color: #709620;
+    font-weight: 550;
+}
+
+.entries-footer {
+    float: right;
+}
+
+.entries-footer a {
+    font-size: 9px;
+    font-family: "Istok Web ", sans-serif;
+    text-decoration: none;
+    color: #4e4e4e;
+}
+
+.entries-footer a:hover {
+    font-weight: 550;
+}
+
+/* end of entities  */
